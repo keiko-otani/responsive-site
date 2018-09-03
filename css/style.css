@@ -41,12 +41,13 @@ section h2 {
 section h2 {
   text-transform: uppercase; }
 
+
 .box {
   background-image: url("bg.png");
   height: 500px;
   width: 100%;
   background-size: cover;
-  background-position: center center; }
+  background-position: center center;  }
 
 .dotted {
   border: 1px dotted #333; }
@@ -56,14 +57,15 @@ section h2 {
   flex-direction: row; }
 
 .box2 {
-  margin: 10px;
-  background-size: cover;
-  flex: 1;
-  margin: 0 auto; }
+ text-align: center; }
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column; } }
+    flex-direction: column; } 
+  .box {
+    max-height: 250px; }}
+
+    
 /* skills
 ------------------------------------------------------------*/
 #skills {
